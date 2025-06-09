@@ -4,7 +4,7 @@ Nextjs TypeSctipt Portfolio showcasing Software Engineering Skills
 
 ## Link
 
-- Portfolio: https://www.owenomc.vercel.app
+- Portfolio: https://www.owenomc.vercel.app](https://owenomc.vercel.app
 
 ## Updates
 
