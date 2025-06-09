@@ -1,5 +1,16 @@
-## OYEAHK GAMES WEBSITE
+# Owen Crandall Portfolio
 
-## GAME DIRECTOR: OWEN CRANDALL
+Nextjs TypeSctipt Portfolio showcasing Software Engineering Skills
 
-## Information:https://nextjs.org/learn/dashboard-app/getting-started
+## Link
+
+- [Portfolio]((https://www.owenomc.vercel.app))
+
+## Updates
+
+- [GitHub]((https://github.com/owenomc))
+- [LinkedIn]((https://www.linkedin.com/in/owen-crandall))
+
+## Contact
+
+- [Email](owenmcrandall@gmail.com)
