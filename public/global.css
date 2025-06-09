@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+
+  /* Page Color */
+  background-color: var(--color-main2);
+  
+  /* Backgrounds */
+  --color-main1: white; /* White */
+  --color-main2: black; /* Black */
+  --color-main3: rgb(15, 14, 14); /* Gray */
+  --color-main4: rgb(144, 161, 182); /* Blue */
+  --color-main5: rgb(139, 168, 221); /* Blue */
+  --color-main6: rgb(168, 131, 124); /* Red */
+  --color-main7: rgb(139, 175, 109); /* Green */
+  --color-main8: rgb(179, 178, 122); /* Yellow */
+  --color-main9: rgb(111, 205, 203); /* Blue */
+
+  --color-transparent: rgb(0, 0, 0, .3); /* Transparent */
+
+  /* CSS */
+  font-family: Inter, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+}
+
+body {
+  background-color: var(--color-main2); /* Dark background */
+  color: var(--color-main1);
+}
+
+nav {
+  background-color: var(--color-main1); /* Light background */
+  color: var(--color-main1);
+}
+
+footer {
+  background-color: var(--color-main3); /* Slightly lighter background */
+  color: var(--color-main1);
+}
+
+/* Hide scrollbar for all elements but keep scrolling */
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+*::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
