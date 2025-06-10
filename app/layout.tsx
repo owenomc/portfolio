@@ -1,5 +1,4 @@
 "use client";
-import Footer from "@/app/components/footer";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import "public/global.css";
@@ -32,7 +31,6 @@ export default function RootLayout({
         <body>
           <div className="flex flex-col min-h-screen">
             <main className="flex-grow">{children}</main>
-            <Footer />
           </div>
         </body>
       </html>

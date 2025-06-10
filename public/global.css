@@ -48,3 +48,7 @@ footer {
 *::-webkit-scrollbar {
   display: none; /* Chrome, Safari, and Opera */
 }
+
+html {
+  scroll-behavior: smooth;
+}
