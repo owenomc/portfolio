@@ -1,7 +1,7 @@
 "use client";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import "public/global.css";
+import '../public/global.css';
 
 export default function RootLayout({
   children,
@@ -21,8 +21,6 @@ export default function RootLayout({
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
           />
           <title>owenomc</title>
-          <link rel="stylesheet" href="/path/to/your/global.css" />
-
           <link rel="preconnect" href="https://rsms.me/" />
           <link rel="stylesheet" href="https://rsms.me/inter/inter.css"></link>
           <Analytics />
